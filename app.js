@@ -1,8 +1,6 @@
 const express = require("express");
 const app = express();
 const path = require("path");
-const wrapAsync = require("./utils/wrapAsync.js");
-const ExpressError = require("./utils/ExpressError.js");
 const mongoose = require("mongoose");
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
