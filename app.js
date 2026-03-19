@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 const express = require("express");
 const app = express();
 const path = require("path");
@@ -16,7 +18,7 @@ app.set("view engine","ejs");
 const MONGO_URL =
   process.env.MONGO_URL || "mongodb://127.0.0.1:27017/intern-assignment";
 
-  
+
 main()
  .then(()=>{
     console.log("connected to DB");
