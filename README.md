@@ -1,8 +1,43 @@
-# Backend Developer Assignment
+# Task Project
+Click here to view the project:
+
+🚀 Live Demo: https://task-project-3jd8.onrender.com
 
 ## Project Overview
 This project is a scalable REST API with JWT authentication and role-based access control.  
 It includes a basic frontend UI for signup, login, dashboard, and task management.
+A scalable REST API with authentication and role-based access control, along with a simple frontend dashboard for managing tasks.
+
+---
+
+## 🚀 Key Features
+
+- 🔐 User registration & login with secure password hashing (bcrypt)
+- 🔑 JWT-based authentication and protected routes
+- 👥 Role-based access control (User/Admin)
+- 📝 CRUD operations for task management (Create, Read, Delete)
+- 🔄 API versioning (`/api/v1/...`) following REST principles
+- 🏗️ Modular project structure (MVC architecture)
+- ⚠️ Error handling and async wrapper utilities
+- 💻 Basic frontend UI for signup, login, and dashboard
+- 📬 Postman collection for API testing
+
+---
+
+## 🔐 Security
+
+- Token-based authentication using JWT
+- Input validation and protected endpoints
+
+---
+
+## 📌 Highlights
+
+- Designed a scalable backend structure for future expansion
+- Implemented admin role logic for restricted operations
+- Integrated frontend with backend APIs using `fetch`
+
+---
 
 ## Tech Stack
 - Node.js
@@ -12,17 +47,6 @@ It includes a basic frontend UI for signup, login, dashboard, and task managemen
 - bcrypt
 - EJS
 - HTML/CSS/JavaScript
-
-## Features
-- User signup
-- User login
-- Password hashing using bcrypt
-- JWT authentication
-- Role-based access (user/admin)
-- Task creation
-- View tasks
-- Delete tasks
-- Basic dashboard UI
 
 ## API Routes
 
